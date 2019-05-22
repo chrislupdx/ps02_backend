@@ -1,0 +1,37 @@
+{
+  "name": "ps02bck",
+  "version": "1.0.0",
+  "description": "initialize npm: npm init -y npm i -D jest eslint supertest nodemon npm i express mongoose dotenv bcryptjs jsonwebtoken cookie-parser create a lib/index.js create a test/index.test.js add .eslintrc add .travis.yml add .gitignore ignore node_modules add scripts test script using jest --verbose test:watch script using npm run test -- --watch start script using node lib/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrislupdx/ps02_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislupdx/ps02_backend/issues"
+  },
+  "homepage": "https://github.com/chrislupdx/ps02_backend#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.10"
+  }
+}

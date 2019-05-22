@@ -10,4 +10,6 @@ ignore node_modules
 add scripts
 test script using jest --verbose
 test:watch script using npm run test -- --watch
+
 start script using node lib/index.js
+
